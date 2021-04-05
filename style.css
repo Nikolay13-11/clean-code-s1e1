@@ -13,7 +13,8 @@ body {
 .main-picture img {
     width: 100%;
 }
-.main-picture .details-text {
+.main-picture, 
+.details-text {
     font-family: fantasy, cursive;
 }
 
@@ -40,10 +41,12 @@ body {
     margin: 0;
     padding: 0px;
 }
-.list-item, .text_block {
+.list-item, 
+.text_block {
     list-style: none;
 }
-input,button{
+input,
+button {
     outline: none;
 }
 button {
